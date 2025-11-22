@@ -5,16 +5,21 @@
 This project uses UCI Red Wine Quality dataset. We will preprocess the data and train Gradient Boosting and AdaBoost classifier ensemble models using features based on physicochemical tests to predict the wine quality rating given by wine tasters.  Then, comparisons of the models are given to each other and the models obtained from other team members.
 
 This project is a guided notebook assignment that demonstrates how to:
-- Load, explore and prepare a dataset.
+- Load and explore a dataset.
 - Choose and justify features for predicting a target variable.
-- Predict a categorical target and evaluate performance of Gradient Boosting and AdaBoost ensemble models.
-- Document work in a structured Jupyter Notebook.
+- Train a regression model and evaluate performance.
+- Compare multiple regression approaches.
+- Document your work in a structured Jupyter Notebook.
+- Conduct a peer review of a classmate's project.
 
-A link to the notebook can be found here: [ensemble_jordan.ipynb](https://github.com/JfromNWMS/applied-ml-jordan/blob/main/notebooks/project05/ensemble_jordan.ipynb)
+A link to the notebook can be found here: [regression_jordan.ipynb](https://github.com/JfromNWMS/ml_regression_jordan/blob/main/notebooks/project05/ensemble_jordan.ipynb)
 
 ## Dataset  
 - We use the Red Wine Quality dataset from UCI:  
    - [Red Wine Quality](https://archive.ics.uci.edu/dataset/186/wine+quality)
+
+## Peer Review
+- clickable link to peer review
 
 ## Model Summary
 
