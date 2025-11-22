@@ -12,7 +12,7 @@ This project is a guided notebook assignment that demonstrates how to:
 - Document your work in a structured Jupyter Notebook.
 - Conduct a peer review of a classmate's project.
 
-A link to the notebook can be found here: [regression_jordan.ipynb](https://github.com/JfromNWMS/ml_regression_jordan/blob/main/notebooks/project05/ensemble_jordan.ipynb)
+A link to the notebook can be found here: [regression_jordan.ipynb](https://github.com/JfromNWMS/ml_regression_jordan/blob/main/regression_jordan.ipynb)
 
 ## Dataset  
 - We use the Red Wine Quality dataset from UCI:  
