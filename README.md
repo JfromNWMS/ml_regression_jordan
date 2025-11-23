@@ -15,8 +15,8 @@ This project is a guided notebook assignment that demonstrates how to:
 A link to the notebook can be found here: [regression_jordan.ipynb](https://github.com/JfromNWMS/ml_regression_jordan/blob/main/regression_jordan.ipynb)
 
 ## Dataset  
-- We use the Red Wine Quality dataset from UCI:  
-   - [Red Wine Quality](https://archive.ics.uci.edu/dataset/186/wine+quality)
+- We use the Medical Cost Personal Datasets from Kaggle:  
+   - [Medical Cost Personal Datasets](https://www.kaggle.com/datasets/mirichoi0218/insurance)
 
 ## Peer Review
 - clickable link to peer review
