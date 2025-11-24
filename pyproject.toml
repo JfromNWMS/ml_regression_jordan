@@ -35,6 +35,7 @@ dependencies = [ # fmt: off
   "imblearn",    # ML library
   "tabulate",    # For tabulating
   "Sympy",       # Symbolic math library
+  "pingouin"     # Statistics library
 ]  # fmt: on
 
 [project.urls]
