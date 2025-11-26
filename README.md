@@ -19,7 +19,7 @@ A link to the notebook can be found here: [regression_jordan.ipynb](https://gith
    - [Medical Cost Personal Datasets](https://www.kaggle.com/datasets/mirichoi0218/insurance)
 
 ## Peer Review
-- clickable link to peer review
+Linsay Foster - [Peer Review](https://github.com/JfromNWMS/ml_regression_jordan/blob/main/peer_review.md)
 
 ## Model Summary
 
