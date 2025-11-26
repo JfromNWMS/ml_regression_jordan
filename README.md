@@ -2,7 +2,7 @@
 ### Author:  [JfromNWMS](https://github.com/JfromNWMS)
 
 ## Overview
-This project uses UCI Red Wine Quality dataset. We will preprocess the data and train Gradient Boosting and AdaBoost classifier ensemble models using features based on physicochemical tests to predict the wine quality rating given by wine tasters.  Then, comparisons of the models are given to each other and the models obtained from other team members.
+This project uses the Kaggle Medical Cost Personal dataset, insurance.csv. We preprocess the data, perform EDA, and fit various linear regression models to predict insurance charges received by individuals.  Then, we give comparisons of the models to each other and declare a best fit model.
 
 This project is a guided notebook assignment that demonstrates how to:
 - Load and explore a dataset.
@@ -23,12 +23,18 @@ A link to the notebook can be found here: [regression_jordan.ipynb](https://gith
 
 ## Model Summary
 
-| Model                     |   Train Accuracy |   Test Accuracy |   Accuracy Gap |   Train F1 |   Test F1 |   F1 Gap |
-|:--------------------------|-----------------:|----------------:|---------------:|-----------:|----------:|---------:|
-| Gradient Boosting (Tuned) |           0.964  |          0.8844 |         0.0797 |     0.9627 |    0.87   |   0.0927 |
-| AdaBoost (200, lr=0.1)    |           0.835  |          0.8594 |        -0.0243 |     0.7919 |    0.8262 |  -0.0344 |
-| AdaBoost (200, lr=0.5)    |           0.8397 |          0.8562 |        -0.0165 |     0.816  |    0.833  |  -0.017  |
-| Gradient Boosting (100)   |           0.9601 |          0.8562 |         0.1039 |     0.9584 |    0.8411 |   0.1173 |
+| Model                         |    R² |    RMSE |     MAE |
+|:------------------------------|------:|--------:|--------:|
+| Linear Train                  | 0.864 | 4425.51 | 2389.16 |
+| Linear Test                   | 0.886 | 4208.77 | 2315.03 |
+| Linear Pipeline Train         | 0.864 | 4425.51 | 2389.16 |
+| Linear Pipeline Test          | 0.886 | 4208.77 | 2315.03 |
+| Log Linear Pipeline Train     | 0.829 | 4967.96 | 2473.66 |
+| Log Linear Pipeline Test      | 0.863 | 4610.51 | 2259.47 |
+| Polynomial Pipeline Train     | 0.88  | 4168.1  | 2354.85 |
+| Polynomial Pipeline Test      | 0.848 | 4856.92 | 2776.89 |
+| Log Polynomial Pipeline Train | 0.873 | 4280.57 | 1977.27 |
+| Log Polynomial Pipeline Test  | 0.843 | 4935.53 | 2349.62 |
 
 ## Instructions to Set up Virtual Environment
 
